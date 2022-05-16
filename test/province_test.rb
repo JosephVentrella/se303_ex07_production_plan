@@ -23,7 +23,7 @@ class ProvinceTest < Minitest::Test
     assert_equal(292, asia.profit)
   end
 
-  def test_no_producers
+  def test_no_producers_shortfall
     data = {
       name: "No producers",
       producers: [],
